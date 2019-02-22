@@ -1,0 +1,55 @@
+﻿<dx:ASPxGridView 
+            runat="server"  
+            SkinID="GridViewSkin1" 
+            Width="100%" 
+            AutoGenerateColumns="False" 
+            SettingsBehavior-ColumnResizeMode="Control"            
+            SettingsCustomizationWindow-Enabled="True"        
+            SettingsCookies-Enabled="False" 
+            SettingsLoadingPanel-Mode="ShowAsPopup" 
+           >
+           
+          
+           <SettingsPager
+                PageSize="10" 
+                AlwaysShowPager="True"
+           />
+
+           <Settings
+                ShowFilterRow="True" 
+                ShowFilterRowMenu="true"
+                ShowHorizontalScrollBar="True"
+                ShowHeaderFilterButton="True"
+                ShowVerticalScrollBar="false" 
+                ShowGroupPanel="True" 
+                VerticalScrollableHeight="400"
+           />    
+
+           <Images 
+                SpriteCssFilePath="~/App_Themes/DevEx/{0}/sprite.css"
+                LoadingPanelOnStatusBar-Url="~/App_Themes/DevEx/GridView/StatusBarLoading.gif"
+                LoadingPanel-Url="~/App_Themes/DevEx/GridView/Loading.gif"
+           />
+
+           <ImagesFilterControl
+                LoadingPanel-Url="~/App_Themes/DevEx/GridView/Loading.gif"
+           />
+  
+           <Styles 
+                CssFilePath="~/App_Themes/DevEx/{0}/styles.css" 
+                CssPostfix="DevEx"
+                Header-ImageSpacing="5px" 
+                Header-SortingImageSpacing="5px"
+                LoadingPanel-ImageSpacing="5px"
+                AlternatingRow-BackColor="#D9DDF0"
+                CommandColumnItem-HorizontalAlign="Center"
+           />
+
+
+           <StylesEditors 
+                ButtonEditCellSpacing="0"
+                ProgressBar-Height="21px"
+           />
+        <Settings ShowFilterBar="Visible" />
+
+</dx:ASPxGridView>

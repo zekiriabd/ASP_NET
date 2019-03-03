@@ -1,0 +1,26 @@
+﻿<dx:ASPxPopupControl
+             
+             runat="server" 
+             SkinID="PopupSkin1" 
+             
+             AllowDragging="True" 
+             AllowResize="True"
+             
+             ShowMaximizeButton ="true"
+             ShowCloseButton ="true"
+             Modal="True" 
+             CloseAction="CloseButton"
+             EnableHierarchyRecreation="True" 
+             EnableHotTrack="False" 
+
+             PopupElementID="popupArea" 
+             PopupHorizontalAlign="WindowCenter"
+             PopupVerticalAlign="WindowCenter"  
+             
+             CssFilePath="~/App_Themes/Office2010Blue/{0}/styles.css" 
+             CssPostfix="Office2010Blue" 
+             SpriteCssFilePath="~/App_Themes/Office2010Blue/{0}/sprite.css" 
+             LoadingPanelImage-Url="~/App_Themes/Office2010Blue/Web/Loading.gif"
+             LoadingPanelStyle-ImageSpacing="5px"
+        >
+</dx:ASPxPopupControl>

@@ -1,0 +1,11 @@
+﻿<dx:ASPxGridLookup  SkinID="GridLookup1" runat="server" ShowVerticalScrollBar="true"  >
+                    <GridViewProperties SettingsPager-Mode="ShowAllRecords">
+                        <Settings ShowColumnHeaders="false" ShowFooter="false" HorizontalScrollBarMode="Hidden" ShowFilterRow="True" ></Settings>
+                        <SettingsBehavior AllowFocusedRow="True" AllowSelectByRowClick="True"></SettingsBehavior>                       
+                   </GridViewProperties>
+                      <GridViewStyles>
+                            <FocusedRow BackColor="White" BackgroundImage-ImageUrl="none" />
+                            <SelectedRow BackColor="White" BackgroundImage-ImageUrl="none" />
+                      </GridViewStyles>
+
+</dx:ASPxGridLookup>

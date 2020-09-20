@@ -1,0 +1,2 @@
+octo push --package "softweb.1.0.0.3.nupkg"  --replace-existing --server http://localhost/octopus --apiKey API-CT1D3AXIIQRWTMPXKFV8YGP0G7Q
+octo create-release --project=Softwe3  --deployto=TEST --server http://localhost/octopus --apiKey API-CT1D3AXIIQRWTMPXKFV8YGP0G7Q --releaseNotes "a new release " --progress

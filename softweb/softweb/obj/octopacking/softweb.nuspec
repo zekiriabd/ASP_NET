@@ -1,0 +1,136 @@
+<package>
+  <metadata>
+    <id>softweb</id>
+    <version>1.0.0.4</version>
+    <authors>SYSTEM</authors>
+    <owners>SYSTEM</owners>
+    <tags>OctopusDeploy</tags>
+    <licenseUrl>http://example.com</licenseUrl>
+    <projectUrl>http://example.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The softweb deployment package, built on 29/04/2020</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\About.aspx" target="About.aspx" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Contact.aspx" target="Contact.aspx" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap-theme.css" target="Content\bootstrap-theme.css" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap-theme.min.css" target="Content\bootstrap-theme.min.css" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap.css" target="Content\bootstrap.css" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap.min.css" target="Content\bootstrap.min.css" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\Site.css" target="Content\Site.css" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Default.aspx" target="Default.aspx" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\favicon.ico" target="favicon.ico" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\fonts\glyphicons-halflings-regular.svg" target="fonts\glyphicons-halflings-regular.svg" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Global.asax" target="Global.asax" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\fonts\glyphicons-halflings-regular.woff2" target="fonts\glyphicons-halflings-regular.woff2" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\fonts\glyphicons-halflings-regular.woff" target="fonts\glyphicons-halflings-regular.woff" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\fonts\glyphicons-halflings-regular.ttf" target="fonts\glyphicons-halflings-regular.ttf" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\fonts\glyphicons-halflings-regular.eot" target="fonts\glyphicons-halflings-regular.eot" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap.min.css.map" target="Content\bootstrap.min.css.map" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap.css.map" target="Content\bootstrap.css.map" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap-theme.min.css.map" target="Content\bootstrap-theme.min.css.map" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Content\bootstrap-theme.css.map" target="Content\bootstrap-theme.css.map" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\bootstrap.js" target="Scripts\bootstrap.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\bootstrap.min.js" target="Scripts\bootstrap.min.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\jquery-3.3.1.js" target="Scripts\jquery-3.3.1.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\jquery-3.3.1.min.js" target="Scripts\jquery-3.3.1.min.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\jquery-3.3.1.slim.js" target="Scripts\jquery-3.3.1.slim.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\jquery-3.3.1.slim.min.js" target="Scripts\jquery-3.3.1.slim.min.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\modernizr-2.8.3.js" target="Scripts\modernizr-2.8.3.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\DetailsView.js" target="Scripts\WebForms\DetailsView.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\Focus.js" target="Scripts\WebForms\Focus.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\GridView.js" target="Scripts\WebForms\GridView.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\Menu.js" target="Scripts\WebForms\Menu.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MenuStandards.js" target="Scripts\WebForms\MenuStandards.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjax.js" target="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" target="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\SmartNav.js" target="Scripts\WebForms\SmartNav.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\TreeView.js" target="Scripts\WebForms\TreeView.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\WebForms.js" target="Scripts\WebForms\WebForms.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\WebParts.js" target="Scripts\WebForms\WebParts.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\WebForms\WebUIValidation.js" target="Scripts\WebForms\WebUIValidation.js" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Site.Master" target="Site.Master" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\ViewSwitcher.ascx" target="ViewSwitcher.ascx" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Web.config" target="Web.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Bundle.config" target="Bundle.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Site.Mobile.Master" target="Site.Mobile.Master" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\jquery-3.3.1.slim.min.map" target="Scripts\jquery-3.3.1.slim.min.map" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\Scripts\jquery-3.3.1.min.map" target="Scripts\jquery-3.3.1.min.map" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\softweb.dll.config" target="bin\softweb.dll.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\softweb.dll" target="bin\softweb.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\softweb.pdb" target="bin\softweb.pdb" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\csc.exe" target="bin\roslyn\csc.exe" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\csc.exe.config" target="bin\roslyn\csc.exe.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\csc.rsp" target="bin\roslyn\csc.rsp" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\csi.exe" target="bin\roslyn\csi.exe" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\csi.exe.config" target="bin\roslyn\csi.exe.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\csi.rsp" target="bin\roslyn\csi.rsp" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" target="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" target="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" target="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.CodeAnalysis.dll" target="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" target="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" target="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.CSharp.Core.targets" target="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" target="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" target="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.Managed.Core.targets" target="bin\roslyn\Microsoft.Managed.Core.targets" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\Microsoft.VisualBasic.Core.targets" target="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.AppContext.dll" target="bin\roslyn\System.AppContext.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Collections.Immutable.dll" target="bin\roslyn\System.Collections.Immutable.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Console.dll" target="bin\roslyn\System.Console.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll" target="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Diagnostics.StackTrace.dll" target="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.IO.Compression.dll" target="bin\roslyn\System.IO.Compression.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.IO.FileSystem.dll" target="bin\roslyn\System.IO.FileSystem.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.IO.FileSystem.Primitives.dll" target="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.IO.Pipes.AccessControl.dll" target="bin\roslyn\System.IO.Pipes.AccessControl.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.IO.Pipes.dll" target="bin\roslyn\System.IO.Pipes.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Reflection.Metadata.dll" target="bin\roslyn\System.Reflection.Metadata.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.AccessControl.dll" target="bin\roslyn\System.Security.AccessControl.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.Claims.dll" target="bin\roslyn\System.Security.Claims.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.Cryptography.Algorithms.dll" target="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.Cryptography.Encoding.dll" target="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.Cryptography.Primitives.dll" target="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll" target="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Security.Principal.Windows.dll" target="bin\roslyn\System.Security.Principal.Windows.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Text.Encoding.CodePages.dll" target="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.ValueTuple.dll" target="bin\roslyn\System.ValueTuple.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Xml.ReaderWriter.dll" target="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Xml.XmlDocument.dll" target="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Xml.XPath.dll" target="bin\roslyn\System.Xml.XPath.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\System.Xml.XPath.XDocument.dll" target="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\vbc.exe" target="bin\roslyn\vbc.exe" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\vbc.exe.config" target="bin\roslyn\vbc.exe.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\vbc.rsp" target="bin\roslyn\vbc.rsp" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\VBCSCompiler.exe" target="bin\roslyn\VBCSCompiler.exe" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\roslyn\VBCSCompiler.exe.config" target="bin\roslyn\VBCSCompiler.exe.config" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Antlr3.Runtime.dll" target="bin\Antlr3.Runtime.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\AspNet.ScriptManager.bootstrap.dll" target="bin\AspNet.ScriptManager.bootstrap.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\AspNet.ScriptManager.jQuery.dll" target="bin\AspNet.ScriptManager.jQuery.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.AspNet.FriendlyUrls.dll" target="bin\Microsoft.AspNet.FriendlyUrls.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll" target="bin\Microsoft.AspNet.Web.Optimization.WebForms.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" target="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.ScriptManager.MSAjax.dll" target="bin\Microsoft.ScriptManager.MSAjax.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.ScriptManager.WebForms.dll" target="bin\Microsoft.ScriptManager.WebForms.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.Web.Infrastructure.dll" target="bin\Microsoft.Web.Infrastructure.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Newtonsoft.Json.dll" target="bin\Newtonsoft.Json.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\System.Web.Optimization.dll" target="bin\System.Web.Optimization.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\WebGrease.dll" target="bin\WebGrease.dll" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\System.Web.Optimization.xml" target="bin\System.Web.Optimization.xml" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Newtonsoft.Json.xml" target="bin\Newtonsoft.Json.xml" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Antlr3.Runtime.pdb" target="bin\Antlr3.Runtime.pdb" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.AspNet.FriendlyUrls.xml" target="bin\Microsoft.AspNet.FriendlyUrls.xml" />
+    <file src="D:\MyDev\DotNet\ASP_NET\softweb\softweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" target="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+  </files>
+</package>

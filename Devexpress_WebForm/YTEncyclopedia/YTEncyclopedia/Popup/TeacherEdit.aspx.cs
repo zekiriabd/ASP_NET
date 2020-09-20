@@ -21,7 +21,7 @@ namespace YTEncyclopedia.Popup
             teacher.ChannelName     =  txChannelName.Text;
             teacher.Description     =  txDescription.Html;
             //teacher.Image           = fuImage.file
-            cDatabase.SaveTeacher(Teacher);
+            cDatabase.SaveTeacher(teacher);
         }
     }
 }

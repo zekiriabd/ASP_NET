@@ -1,0 +1,86 @@
+ protected void hlbFileTemplateEdit_Click(object sender, EventArgs e)
+        {
+            string NewXlsFile = GetRespondentCriterionValue();
+            Tool.DownloadGlobalSurveyStatus(NewXlsFile, @"\temp\");
+        }
+
+        private string GetRespondentCriterionValue()
+        {
+            string surveyId = Request.QueryString.Get("SURVEY_ID");
+            lblMessage.Items.Clear();
+            var fileName = string.Format("UPDATE AN EXISTING BULK DEMOGRAPHICS CLASSES {0}#{1}.xlsx", DateTime.Now.ToString("yyyy -MM-dd--hh-mm-ss"), surveyId);
+            var outputDir = HttpContext.Current.Server.MapPath("/temp/");
+            var file = new FileInfo(outputDir + fileName);
+            var ids = gvDemoClass.GetSelectedFieldValues("DEMOGRAPHIC_CLASS_ID");
+            var names = gvDemoClass.GetSelectedFieldValues("NAME").ToArray();
+
+            CDB_DEMOGRAPHIC_CLASS dc = new CDB_DEMOGRAPHIC_CLASS(dbo);
+            CDB_DEMOGRAPHIC_CLASS_ITEM dci = new CDB_DEMOGRAPHIC_CLASS_ITEM(dbo);
+            try
+            {
+                using (var package = new ExcelPackage(file))
+                {
+                    int i = 0;
+                    foreach (int id in ids)
+                    {
+                        
+                        DataTable dti = dci.SelectAllByDemographicClassID(id).Tables[0];
+                        DataTable dt = dc.GetRespondentCriterionValue(id);
+                        if (dt.Rows.Count > 0)
+                        {
+                            string page = names[i].ToString() + " #" + id; i++;
+
+                            ExcelWorksheet worksheet = package.Workbook.Worksheets.Add(page);
+                            worksheet.Cells[1, 1].Value = "SourceRespondentID";
+                            worksheet.Cells[1, 2].Value = "CriterionValue";
+                            worksheet.Cells[1, 3].Value = "DemographicClassItemId";
+                            worksheet.Cells[1, 4].Value = "Name";
+
+                            int row = 2;
+                            foreach (DataRow dbrow in dt.Rows)
+                            {
+                                worksheet.Cells[row, 1].Value = dbrow["SourceRespondentID"];
+                                worksheet.Cells[row, 2].Value = dbrow["CriterionValue"];
+                                row++;
+                            }
+
+                            int row2 = 2;
+                            foreach (DataRow dbrow in dti.Rows)
+                            {
+                                worksheet.Cells[row2, 3].Value = dbrow["DEMOGRAPHIC_CLASS_ITEM_ID"];
+                                worksheet.Cells[row2, 4].Value = dbrow["NAME"];
+                                row2++;
+                            }
+
+                            ExcelRange range = worksheet.Cells[1, 1, row - 1, 4];
+                            var ExcelTable = worksheet.Tables.Add(range, "table" + id);
+                            ExcelTable.ShowHeader = true;
+                            ExcelTable.TableStyle = OfficeOpenXml.Table.TableStyles.Medium2;
+                            range.AutoFitColumns();
+
+                        }
+                    }
+
+                  /*  ExcelWorksheet worksheet2 = package.Workbook.Worksheets.Add("New Demographic Class");
+                    worksheet2.Cells[1, 1].Value = "Criteria Name";
+                    worksheet2.Cells[1, 2].Value = "Criteria Group";
+                    worksheet2.Cells[1, 3].Value = "Position";
+                    worksheet2.Cells[1, 4].Value = "CriterionValue";
+                    worksheet2.Cells[1, 5].Value = "SourceRespondentID";
+                    worksheet2.Cells[1, 6].Value = "RespondentCriterionValue";
+                    Color colFromHex = ColorTranslator.FromHtml("#76a8e3");
+                    worksheet2.Cells["A1:F1"].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                    worksheet2.Cells["A1:F1"].Style.Fill.BackgroundColor.SetColor(colFromHex);
+                    worksheet2.Cells["A1:F1"].Style.Font.Color.SetColor(Color.White);*/
+
+                    package.Save();
+                }
+            }
+            catch (Exception ex)
+            {
+                lblMessage.Items.Add(ex.Message);
+                return null;
+            }
+
+            return fileName;
+        }

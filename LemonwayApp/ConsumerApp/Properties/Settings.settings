@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsumerApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsumerApp_ConvertService_ConvertController" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8089/Controllers/ConvertController.asmx</Value>
+    </Setting>
+    <Setting Name="ConsumerApp_FibonacciService_FibonacciController" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8089/Controllers/FibonacciController.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

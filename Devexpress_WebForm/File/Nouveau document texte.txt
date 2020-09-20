@@ -1,0 +1,12 @@
+ static public void DownloadGlobalSurveyStatus(string sFileName, string dir)
+        {
+
+            var sFilePath = Path.Combine(HttpContext.Current.Server.MapPath(dir), sFileName);
+
+            System.Web.HttpBrowserCapabilities browser = HttpContext.Current.Request.Browser;
+            if (browser.Browser.Equals("Firefox")) sFileName = sFileName.Replace(' ', '_');
+            HttpContext.Current.Response.ContentType = "application/octet-stream";
+            HttpContext.Current.Response.AppendHeader("Content-Disposition", "attachment;filename=" + sFileName);
+            HttpContext.Current.Response.TransmitFile(sFilePath);
+            HttpContext.Current.Response.End();
+        }
